@@ -83,7 +83,7 @@ paths:
         x-snake: begin_date
       responses:
         "200":
-          description: Success
+          description: Cash validation summary for each account
           content:
             application/json:
               schema:
@@ -178,7 +178,7 @@ paths:
         x-snake: balance_date
       responses:
         "200":
-          description: Success
+          description: Balance sheet report
           content:
             application/json:
               schema:
@@ -305,7 +305,7 @@ paths:
         x-snake: end_date
       responses:
         "200":
-          description: Success
+          description: Cash flow report
           content:
             application/json:
               schema:
@@ -470,7 +470,7 @@ paths:
         x-snake: end_date
       responses:
         "200":
-          description: Success
+          description: Profit and loss report
           content:
             application/json:
               schema:
@@ -561,7 +561,7 @@ paths:
         x-snake: end_date
       responses:
         "200":
-          description: Success
+          description: Trial balance report
           content:
             application/json:
               schema:
@@ -674,7 +674,7 @@ paths:
         x-snake: end_date
       responses:
         "200":
-          description: Success
+          description: Revenue by contacts report
           content:
             application/json:
               schema:
@@ -810,7 +810,7 @@ paths:
         x-snake: end_date
       responses:
         "200":
-          description: Success
+          description: Expense by contacts report
           content:
             application/json:
               schema:
@@ -940,7 +940,7 @@ paths:
         x-example-python: "True"
       responses:
         "200":
-          description: Success
+          description: Bank statement accounting data
           content:
             application/json:
               schema:

@@ -51,7 +51,7 @@ paths:
           example: "2021-09-15"
       responses:
         "200":
-          description: Success
+          description: Cash validation summary for each account
           content:
             application/json:
               schema:
@@ -141,7 +141,7 @@ paths:
           example: "2020-06-30"
       responses:
         "200":
-          description: Success
+          description: Balance sheet report
           content:
             application/json:
               schema:
@@ -255,7 +255,7 @@ paths:
           example: "2021-09-15"
       responses:
         "200":
-          description: Success
+          description: Cash flow report
           content:
             application/json:
               schema:
@@ -409,7 +409,7 @@ paths:
           example: "2021-09-15"
       responses:
         "200":
-          description: Success
+          description: Profit and loss report
           content:
             application/json:
               schema:
@@ -493,7 +493,7 @@ paths:
           example: "2021-09-15"
       responses:
         "200":
-          description: Success
+          description: Trial balance report
           content:
             application/json:
               schema:
@@ -580,7 +580,7 @@ paths:
             type: string
       responses:
         "200":
-          description: Success
+          description: Revenue by contacts report
           content:
             application/json:
               schema:
@@ -690,7 +690,7 @@ paths:
             type: string
       responses:
         "200":
-          description: Success
+          description: Expense by contacts report
           content:
             application/json:
               schema:
@@ -800,7 +800,7 @@ paths:
             type: boolean
       responses:
         "200":
-          description: Success
+          description: Bank statement accounting data
           content:
             application/json:
               schema:
